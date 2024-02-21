@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+h1 {
+  font-weight: 800;
+  font-size: 1.25rem;
+}
+body {
+  margin: 0px;
+  color: black;
+  background-color: hsl(47, 88%, 63%);
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.text-grey {
+  color: hsl(0, 0%, 50%);
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+.author img {
+  height: 32px;
+  margin-right: 0.75rem;
+}
+
+button {
+  font-weight: 600;
+  background-color: hsl(47, 88%, 63%);
+  color: black;
+  border-radius: 5px;
+  border: none;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+header img {
+  border-radius: 15px;
+}
+
+header p {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    max-width: 279px;
+    background-color: white;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 1) 12px 10px 0px, rgb(0, 0, 0) 0px 0px 0px 1px;
+  }
+  header img {
+    border-radius: 15px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .container {
+    max-width: 338px;
+    background-color: white;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 1) 12px 10px 0px, rgb(0, 0, 0) 0px 0px 0px 1px;
+  }
+}
